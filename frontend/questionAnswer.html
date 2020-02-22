@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <script src="sentiment.js"></script> -->
+  <script src="js/canvas.js"></script>
+  <!-- <script src="popup.js"></script> -->
+  <script src="js/jquery-2.0.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/custom.css" rel="stylesheet" media="screen">
+  <link href="css/questionAnswer.css" rel="stylesheet" media="screen">
+</head>
+
+<body style='height: 500px; width: 300px; background-color: #000000; font-family: "Source Sans Pro"; color: white;'>
+  <div style="text-align:center;">
+    <img src="images/SnapSeek.png" style="padding:10px" width="60px" height="60px" alt="SnapSeek">
+  </div>
+  <form autocomplete="off" id="form">
+    <div class="container h-100" style="width: inherit; margin:15px 0px;">
+      <div class="wrap">
+        <div class="searchbar" style='width: 100%;position: relative;display: flex;'>
+          <input type="text" id="question" class="search_input searchTerm" name="question" placeholder="Ask a question">
+          <button type="submit" style="cursor: pointer;" class="search_icon"><i class="fa fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="container answer-wrapper">
+    <p id="answer">Ask a question to see an answer here</p>
+  </div>
+  <table id="table" class="table responsive">
+    <thead>
+      <tr>
+        <th style='font-family: "Source Sans Pro"; color: white; '>Phrase</th>
+        <th style='font-family: "Source Sans Pro"; color: white; '>Timestamp</th>
+      </tr>
+    </thead>
+    <tbody id='tbody'>
+    </tbody>
+  </table>
+  <script src="questionAnswer.js"></script>
+  
+</body>
+
+</html>

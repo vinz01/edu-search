@@ -165,7 +165,7 @@ chrome.tabs.query({'active': true, 'currentWindow': true}, function (tabs) {
 });
 
 function fetchwords(id){
-	fetch('http://0.0.0.0:5002/' + id).then(r => r.text()).then(result => {
+	fetch('http://127.0.0.1:5002/' + id).then(r => r.text()).then(result => {
 
 		//document.write(result)
 		//alert(result)
@@ -189,7 +189,7 @@ function fetchwords(id){
  function fetchda(word,id){
 //	alert("gdsh");
 
-	fetch('http://0.0.0.0:5001/'+ word +'/' + id).then(r => r.text()).then(result => {
+	fetch('http://127.0.0.1:5001/'+ word +'/' + id).then(r => r.text()).then(result => {
 
 		// document.write(result)
 		//alert(result)

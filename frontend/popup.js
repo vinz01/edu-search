@@ -33,7 +33,7 @@ chrome.tabs.query({'active': true, 'currentWindow': true}, function (tabs) {
  function fetchya(word,id){
    
     // document.write(word+id)
-    fetch('http://0.0.0.0:5000/'+ word +'/' + id).then(r => r.text()).then(result => {
+    fetch('http://127.0.0.1:5000/'+ word +'/' + id).then(r => r.text()).then(result => {
 
       
       var mydata = JSON.parse(result);
