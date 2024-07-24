@@ -7,7 +7,7 @@ In today's digital world, YouTube is one of the main sources of education and le
 Documentation:- https://devfolio.co/submissions/edusearch
 
 ## Screenshots
-[image](./Screenshot/1.webp)
-[image](./Screenshot/2.webp)
-[image](./Screenshot/3.webp)
-[image](./Screenshot/4.webp)
+[image](./Screenshot/1.jpeg)
+[image](./Screenshot/2.jpeg)
+[image](./Screenshot/3.jpeg)
+[image](./Screenshot/4.jpeg)
